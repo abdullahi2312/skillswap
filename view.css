@@ -1,0 +1,445 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+      position: fixed;
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+    margin-top: 10px;
+    background-color: white;
+}
+.header h1 {
+    color: blue;
+}
+
+.header i {
+    display: none;
+}
+
+.uk {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+.uk li a {
+    text-decoration: none;
+    color: black;
+
+}
+.fc {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 130px;
+}
+.tuf{
+    display: flex;
+    padding-top: 80px;
+    gap: 30px;
+}
+.tx p {
+    width: 150px;
+    height: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: skyblue;
+    color: blue;
+    margin-left: 75px;
+}
+.txs p {
+    width: 55px;
+    height: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: skyblue;
+    color: blue;
+}
+.texts h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.texts p {
+      margin-left: 20px;
+    margin-top: 10px;
+}
+
+.good {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image img {
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    margin-left: 20px;
+}
+.go {
+    display: flex;
+    margin-top: 30px;
+}
+.od h5 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.od p {
+    margin-left: 10px;
+}
+.icon {
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.icon i {
+    color: blue;
+}
+
+.goood {
+    position: relative;
+}
+
+.images i {
+    width: 70px;
+    height: 50px;
+    font-size: 40px;
+    padding-top: 10px;
+    border-radius: 100%;
+    background-color: white;
+    color: blue;
+    margin-top: 120px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.images img {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+}
+
+.but button {
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 330px;
+}
+
+.but p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.goood {
+    width: 400px;
+    height: 675px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px ;
+    border-radius: 20px;
+   
+}
+.goood p {
+    margin-top: 30px;
+}
+
+.feek{
+    margin-top: 20px;
+}
+
+.feek p {
+    margin-left: 20px;
+}
+
+.feek i {
+ margin-top: 20px;
+ margin-left: 20px;
+ color: blue;
+}
+
+.hy {
+    margin-top: -400px;
+}
+
+.hy h1 {
+    margin-left: 50px;
+}
+
+.op {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.opd {
+     display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.ops {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.t i {
+    margin-left: 50px;
+    color: blue;
+}
+.y p {
+    width: 80px;
+    height: 20px;
+    padding-left: 10px;
+    background-color: skyblue;
+    border-radius: 20px;
+    margin-left: 350px;
+
+}
+
+.kpp {
+    display: flex;
+    margin-top: 50px;
+}
+
+.kp i {
+margin-top: 30px;
+margin-left: 20px;
+color: blue;
+}
+
+.mpc {
+    width: 740px;
+    height: 175px;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px 0px ;
+    border-radius: 20px;
+}
+
+.p p {
+    width: 80px;
+    height: 20px;
+    padding-left: 10px;
+    background-color: skyblue;
+    border-radius: 20px;
+    margin-left: 320px;
+
+}
+
+.mpd {
+    width: 740px;
+    height: 130px;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px 0px ;
+    border-radius: 20px;
+}
+
+.hork {
+    width: 400px;
+    height: 120px;
+    padding-left: 20px;
+    padding-top: 30px;
+    background-color: aquamarine;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.hork i {
+    color: blue;
+    font-size: 20px;
+}
+
+.hork p {
+    margin-top: 10px;
+}
+
+.uj h1 {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.ikl img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.kpr {
+    display: flex;
+}
+.fork {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.fork p {
+    margin-top: 10px;
+}
+
+.ico {
+    display: flex;
+    margin-left: 200px;
+    margin-top: -30px;
+    gap: 20px;
+}
+
+.ic i {
+    color: blue;
+}
+
+.mpf {
+    width: 750px;
+    height: 180px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.ok {
+    display: flex;
+    gap: 30px;
+}
+
+.ko {
+     display: flex;
+    gap: 30px;
+}
+
+.waad {
+    width: 400px;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: skyblue;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.h {
+    width: 140px;
+    height: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.k {
+    width: 155px;
+    height: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.o {
+    width: 143px;
+    height: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.l {
+    width: 145px;
+    height: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.q {
+    width: 113px;
+    height: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media ( max-width : 768px) {
+    .header {
+        flex-direction: column;
+        width: 100%;
+        height: 40px;
+        background-color: blue;
+    }
+    .header h1 {
+        color: white;
+        margin-top: -15px;
+    }
+    .header ul {
+        display: none;
+    }
+    .header button {
+        display: none;
+    }
+
+.header i {
+    display: block;
+    margin-left: 720px;
+    margin-top: -50px;
+    color: white;
+}
+
+.good {
+    flex-direction: column;
+}
+
+.goood {
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.op {
+    margin-top: 400px;
+    font-size: 15px;
+}
+
+.opd {
+    font-size: 14px;
+}
+
+.ops {
+    font-size: 13px;
+}
+
+.kpp {
+    flex-direction: column;
+}
+
+.waad {
+    margin-top: 30px;
+}
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+    }
+
+}

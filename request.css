@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+      position: fixed;
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+    margin-top: 10px;
+    background-color: white;
+}
+.header h1 {
+    color: blue;
+}
+
+.header i {
+    display: none;
+}
+
+.uk {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+.uk li a {
+    text-decoration: none;
+    color: black;
+
+}
+.fc {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 130px;
+}
+
+.f {
+    width: 135px;
+    height: 20px;
+    background-color: rgb(181, 181, 231);
+    color: blue;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+
+.icon i {
+    font-size: 40px;
+    padding-top: 100px;
+    margin-left: 600px;
+    color: blue;
+    margin-top: 30px;
+}
+
+.kok {
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.kok p {
+    margin-top: 20px;
+}
+
+
+.rp {
+    display: flex;
+    gap: 30px;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.god {
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.wad {
+    display: flex;
+    margin-top: 20px;
+}
+
+.wad h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.wad p {
+margin-left: 10px; 
+margin-top: 5px;
+}
+
+.good {
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.good button {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.lo {
+    display: flex;
+    gap: 75px;
+    margin-top: 30px;
+}
+
+.ip {
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width : 768px) {
+    .header {
+        flex-direction: column;
+        width: 768px;
+        height: 40px;
+        background-color: blue;
+    }
+    .header h1 {
+        color: white;
+        margin-top: -15px;
+    }
+    .header ul {
+        display: none;
+    }
+    .header button {
+        display: none;
+    }
+
+.header i {
+    display: block;
+    margin-left: 720px;
+    margin-top: -50px;
+    color: white;
+}
+
+.god {
+    margin-left: -300px;
+}
+
+.kok {
+    margin-left: 180px;
+}
+
+.icon {
+    margin-left: -300px;
+}
+
+}

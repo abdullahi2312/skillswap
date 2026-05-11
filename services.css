@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+      position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.header h1 {
+    color: blue;
+}
+
+.header i {
+    display: none;
+}
+
+.uk {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+.uk li a {
+    text-decoration: none;
+    color: black;
+
+}
+.fc {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 130px;
+}
+.da {
+    text-align: center;
+    margin-top: 30px;
+     padding-top: 100px;
+}
+.da h4 {
+    color: blue;
+}
+.da h3 {
+    margin-top: 10px;
+}
+.da p {
+    margin-top: 10px;
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.text {
+    width: 813.33px;
+    height: 275px;
+    background-color: #EEEFFF;
+    padding-left: 20px;
+    padding-top: 20px;
+     border: 1px solid black;
+    border-radius: 10px;
+}
+.text i {
+    color: blue;
+    margin-top: 10px;
+}
+
+.text p {
+    margin-top: 20px;
+}
+.ok {
+    color: blue;
+}
+.tex {
+     width: 300px;
+    height: 275px;
+    background-color: #ffefef;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.tex i {
+    color: blue;
+}
+.tex p {
+    margin-top: 15px;
+}
+.das img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 20px;
+   margin-right: -20px;
+   border: 1px solid white;
+}
+.das p {
+    width: 40px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #E2E8F0;
+    text-align: center;
+padding-top: 10px;
+margin-left: 60px;
+margin-bottom: 60px;
+margin-top: -45px;
+position: relative;
+border: 1px solid rgb(255, 255, 255);
+}
+.das h5 {
+    margin-top: -50px;
+    font-size: 10px;
+}
+.fth {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.hyer i {
+    color: blue;
+}
+.hyer p {
+    margin-top: 15px;
+}
+.hyer h3 {
+    margin-top: 10px;
+}
+
+.hyer h4 {
+    margin-top: 20px;
+}
+
+.th {
+    width: 604px;
+    height: 300px;
+    background-color: #EEEFFF;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.grey {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.yeg {
+    width: 200px;
+    height: 70px;
+    background-color: #ffefef;
+    text-align: left;
+    padding-top: 30px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+}
+.yeg p {
+    color: blue;
+
+}
+.dfr {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.wed i {
+    color: white;
+    font-size: 35px;
+}
+.wed p {
+    margin-top: 10px;
+}
+.wed button {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    margin-top: 50px;
+    border: none;
+    border-radius: 30px;
+
+}
+.gook {
+    display: flex;
+    width: 1150px;
+    height: 260px;
+    border: 1px solid black;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.tk p {
+    margin-top: 10px;
+}
+.tk i {
+    color: blue;
+    margin-top: 10px;
+}
+.feak img {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.klpp {
+    width: 950px;
+    height: 190px;
+    background-color: #DEE9FC;
+    margin-left: 160px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.klpp p {
+    margin-top: 20px;
+}
+.juhy {
+    display: flex;
+}
+.kjd button {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 275px;
+     margin-top: 30px;
+}
+.klk button {
+      width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.footer {
+     width: 1260px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.main p {
+    margin-top: 20px;
+}
+
+.main i {
+    margin-top: 20px;
+}
+
+.product li {
+    list-style: none;
+    margin-top: 13px;
+}
+
+.product li {
+    list-style: none;
+    margin-top: 13px;
+  
+}
+
+.Pages li {
+    list-style: none;
+    margin-top: 12px;
+}
+
+.Pages li a {
+    text-decoration: none;
+    color: white;
+}
+
+.cont p {
+    margin-top: 13px;
+}
+.cont input {
+    width: 255px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 15px;
+}
+.cont button {
+     width: 270px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+border-radius: 7px;
+    margin-top: 20px;
+}
+
+
+@media ( max-width : 768px) {
+    .header {
+        flex-direction: column;
+        width: 768px;
+        height: 40px;
+        background-color: blue;
+    }
+    .header h1 {
+        color: white;
+        margin-top: -15px;
+    }
+    .header ul {
+        display: none;
+    }
+    .header button {
+        display: none;
+    }
+
+.header i {
+    display: block;
+    margin-left: 720px;
+    margin-top: -50px;
+    color: white;
+}
+
+.box {
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.text {
+    width: 75%;
+
+}
+
+.tex {
+    margin-top: 30px;
+}
+
+.fth {
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.dfr {
+    margin-top: 30px;
+}
+
+.gook {
+    width: 75%;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.kjd {
+    margin-left: -30px;
+}
+
+.feak {
+    margin-top: 30px;
+}
+
+.tk {
+    width: 700px;
+    height: 300px;
+}
+
+.klpp {
+    width: 100%;
+    margin-left: -5px;
+    margin-top: 275px;
+}
+
+.tk {
+    padding-left: 20px;
+}
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+    }
+
+}
